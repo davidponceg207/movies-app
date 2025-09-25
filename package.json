@@ -11,10 +11,14 @@
     "start:ios": "npm run ios -- --simulator= 'iPhone 16 Pro Max (6487C130-2C0A-467E-B6D2-52EB7B8D9F20)'"
   },
   "dependencies": {
+    "@react-native/new-app-screen": "0.81.4",
+    "@react-navigation/elements": "^2.6.4",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/native-stack": "^7.3.26",
     "react": "19.1.0",
     "react-native": "0.81.4",
-    "@react-native/new-app-screen": "0.81.4",
-    "react-native-safe-area-context": "^5.5.2"
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-screens": "^4.16.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
