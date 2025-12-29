@@ -23,7 +23,7 @@ export const HomeScreen = () => {
 
                 {/* Popular */}
 
-                <HorizontalCarousel movies={ popular } title="Popular" />
+                <HorizontalCarousel movies={ popular } title="Popular" loadNextPage={() => console.log("End reached")} />
 
                 {/* Top Rated */}
 
